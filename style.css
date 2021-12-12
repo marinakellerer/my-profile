@@ -1,0 +1,90 @@
+body {
+
+	font-family: Courier, monospace;
+
+	font-size: 12px;
+
+	line-height: 1.8;
+
+	letter-spacing: 1px;
+
+background-color: #b3d1dd;
+color: #505050;
+
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+}
+a {
+  color: #505050;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  text-decoration: none;
+  box-shadow: 0px 10px 30px rgba(0,114,117,0.5);
+}
+
+
+
+.img-circle {
+
+	border-radius:50%;
+}
+
+img:hover{
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.btn-blue {
+	background-color: #0072B1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	color: #0072B1;
+}
